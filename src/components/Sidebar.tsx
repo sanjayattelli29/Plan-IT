@@ -30,7 +30,6 @@ const Sidebar = ({ user, currentPage = "dashboard" }: SidebarProps) => {
     { icon: Calendar, label: "Calendar", path: "/dashboard", key: "calendar" },
     { icon: List, label: "Events", path: "/events", key: "events" },
     { icon: Bell, label: "Reminders", path: "/reminders", key: "reminders" },
-    { icon: BarChart3, label: "Analytics", path: "/analytics", key: "analytics" },
     { icon: Settings, label: "Settings", path: "/settings", key: "settings" },
   ];
 

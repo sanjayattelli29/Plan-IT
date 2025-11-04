@@ -100,7 +100,7 @@ const Index = () => {
                   </svg>
                   GitHub
                 </Button>
-                <Button variant="outline" size="lg" onClick={() => window.open('https://designwithsanjay.netlify.app', '_blank')}>
+                <Button variant="outline" size="lg" onClick={() => window.open('https://designwithsanjay2.netlify.app', '_blank')}>
                   <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M12 21l-8-8 8-8 8 8-8 8z"/>
                   </svg>

@@ -184,69 +184,7 @@ const Settings = () => {
             </CardContent>
           </Card>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>Preferences</CardTitle>
-              <CardDescription>Customize your experience</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="space-y-2">
-                <Label htmlFor="theme">Theme</Label>
-                <Select
-                  value={preferences.theme}
-                  onValueChange={(value) =>
-                    setPreferences({ ...preferences, theme: value })
-                  }
-                >
-                  <SelectTrigger id="theme">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="light">Light</SelectItem>
-                    <SelectItem value="dark">Dark</SelectItem>
-                    <SelectItem value="system">System</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className="space-y-2">
-                <Label htmlFor="default-view">Default View</Label>
-                <Select
-                  value={preferences.default_view}
-                  onValueChange={(value) =>
-                    setPreferences({ ...preferences, default_view: value })
-                  }
-                >
-                  <SelectTrigger id="default-view">
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="calendar">Calendar</SelectItem>
-                    <SelectItem value="events">Events</SelectItem>
-                    <SelectItem value="reminders">Reminders</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
-
-              <div className="flex items-center justify-between">
-                <div>
-                  <Label htmlFor="notifications">Enable Notifications</Label>
-                  <p className="text-sm text-muted-foreground">
-                    Receive reminders for upcoming events
-                  </p>
-                </div>
-                <Switch
-                  id="notifications"
-                  checked={preferences.notifications_enabled}
-                  onCheckedChange={(checked) =>
-                    setPreferences({ ...preferences, notifications_enabled: checked })
-                  }
-                />
-              </div>
-
-              <Button onClick={savePreferences}>Save Preferences</Button>
-            </CardContent>
-          </Card>
+        
 
           <Card>
             <CardHeader>
