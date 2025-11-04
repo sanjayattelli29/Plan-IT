@@ -156,17 +156,8 @@ create policy "Users can delete their own events"
 - Collapsible sidebar for mobile view
 - Optimized event previews for small screens
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -174,10 +165,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Supabase](https://supabase.com/) for the backend infrastructure
 - [Lucide](https://lucide.dev/) for the icons
 - [Tailwind CSS](https://tailwindcss.com/) for the styling system
-
-## Support
-
-For support, email support@timescape.com or open an issue in this repository.
-
----
-Built with ❤️ using React, TypeScript, and Supabase
